@@ -138,6 +138,11 @@ public final class MappingConstants {
          */
         public static final String JAKARTA = "jakarta";
 
+        /**
+         * The generated mapper is annotated with @javax.inject.Named and @Singleton, and can be retrieved via @Inject
+         */
+        public static final String DAGGER2 = "dagger2";
+
     }
 
 }

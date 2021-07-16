@@ -42,5 +42,7 @@ public class ConstantTest {
         assertThat( MappingConstants.ComponentModel.JSR330 ).isEqualTo( MappingConstantsGem.ComponentModelGem.JSR330 );
         assertThat( MappingConstants.ComponentModel.JAKARTA )
             .isEqualTo( MappingConstantsGem.ComponentModelGem.JAKARTA );
+        assertThat( MappingConstants.ComponentModel.DAGGER2 )
+            .isEqualTo( MappingConstantsGem.ComponentModelGem.DAGGER2 );
     }
 }
